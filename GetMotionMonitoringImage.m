@@ -6,6 +6,7 @@ function mm_image = GetMotionMonitoringImage(filepath_mmimage, dir_root)
 
 fid_mmimage = fopen(filepath_mmimage,'r');
 
+% test
 % header length: 4084
 % total length: 458955
 % data_ = fread(fid_mmimage,458955-12500,'*ubit8');
